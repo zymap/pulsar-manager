@@ -62,7 +62,7 @@ public class UsersServiceImplTest {
         Map<String, String> validateEmailIllegal = usersService.validateUserInfo(userInfoEntity);
         Assert.assertEquals(validateEmailIllegal.get("error"), "Email address illegal");
 
-        userInfoEntity.setEmail("test@apache.org");
+        userInfoEntity.setEmail("test@apaBrokerStatsServiceImplTest.javache.org");
         userInfoEntity.setPassword("  ");
         userInfoEntity.setAccessToken(" ");
         Map<String, String> validatePasswordAndTokenBlank = usersService.validateUserInfo(userInfoEntity);

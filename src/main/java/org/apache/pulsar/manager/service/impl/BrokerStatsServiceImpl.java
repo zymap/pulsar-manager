@@ -79,7 +79,7 @@ public class BrokerStatsServiceImpl implements BrokerStatsService {
     private final ConsumersStatsRepository consumersStatsRepository;
 
     private static final Map<String, String> header = new HashMap<String, String>(){{
-        put("Content-Type","application/json");
+//        put("Content-Type","application/json");
     }};
 
     @Autowired
